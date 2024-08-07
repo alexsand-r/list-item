@@ -4,5 +4,9 @@
     background-color: #eee;
     border-radius: 20px;
     margin: 0 auto;
+    padding: 0px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     
 }

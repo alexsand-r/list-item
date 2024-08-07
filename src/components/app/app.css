@@ -1,8 +1,27 @@
+html,
+body {
+    height: 100%;
+    /* Убираем отступы и обеспечиваем полную высоту экрана */
+    margin: 0;
+}
+
 .app {
     max-width: 1000px;
     margin: 0 auto;
-    padding: 0px 15px;
+    /* Центрирует контейнер по горизонтали */
+    padding: 25px 15px;
+    /* Объединенные отступы */
     text-align: center;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    /* Центрирует текст внутри контейнера */
+
+    /* Flexbox стили для центрирования содержимого по вертикали */
+    display: flex;
+    flex-direction: column;
+    /* Элементы располагаются в колонку */
+    justify-content: center;
+    /* Центрируем по вертикали */
+    align-items: center;
+    /* Центрируем по горизонтали */
+    height: 100vh;
+    /* Высота контейнера равна высоте экрана */
 }
