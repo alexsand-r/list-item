@@ -1,12 +1,13 @@
 //*---
 
-import Body from "../body/body";
+import BodyBlock from "../body-block/body-block";
+import "./reset.css";
 import "./app.css";
 
 function App() {
   return (
     <div className="app">
-      <Body />
+      <BodyBlock />
     </div>
   );
 }
